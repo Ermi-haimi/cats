@@ -12,13 +12,62 @@
     <header>
         <!-- inter page navigation -->
         <nav>
-            <a href=""></a>
-            <a href=""></a>
+            <a href="./home.html">Home</a>
+            <a href="./typesOfCats.html">Types of Cats</a>
         </nav>
 
     </header>
     <main>
+        <!-- information about the buyers and the cat they want to buy -->
+        <form>
 
+
+            <div><label for="firstName">First Name: </label>
+                <input type="text" name="firstName" id="firstName" placeholder="type here ..." required>
+            </div>
+
+            <div>
+                <label for="lastName">Last Name: </label>
+                <input type="text" name="lastName" id="lastName" placeholder="type here ...">
+            </div>
+            <div>
+                <label for="age">Your Age: </label>
+                <input type="number" name="age" id="age" min="15" required placeholder="age">
+            </div>
+            <div>
+                <label for="date">The date you want to come </label>
+                <input type="date" name="date" id="date" required>
+            </div>
+
+            <div>
+                <label for="numberOfCats">How many cats do you want?</label>
+                <input type="number" name="numOfCats" id="numberOfCats" min="1" placeholder="1 or 2 even more">
+            </div>
+            <div>
+                <p>Can give care to the cats?</p>
+                <input type="radio" name="abilityToGiveCare" id="yes" value="yes">
+                <label for="yes">Yes</label><br>
+                <input type="radio" name="abilityToGiveCare" id="no" value="yes">
+                <label for="no">Not sure</label>
+            </div>
+            <div>
+                <p>Which
+                    <!-- add an anchor tag that takes to the types of cats we have--> types of cats you want?
+                </p>
+
+                <input type="checkbox" name="typeOfCats" id="abys" value="abyssinian">
+                <label for="abys">Abyssinian</label> <br>
+                <input type="checkbox" name="typeOfCats" id="aegean" value="aegean">
+                <label for="aegean">Aegean</label> <br>
+                <input type="checkbox" name="typeOfCats" id="himal" value="himaliyan">
+                <label for="himal">Himaliyan</label> <br>
+                <input type="checkbox" name="typeOfCats" id="persian" value="persian">
+                <label for="persian">Persian</label> <br>
+                <input type="checkbox" name="typeOfCats" id="tiffanie" value="tiffanie">
+                <label for="tiffanie">Tiffanie</label> <br>
+            </div>
+
+        </form>
     </main>
     <footer>
 
