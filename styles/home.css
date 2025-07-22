@@ -44,29 +44,39 @@ header h1 {
     white-space: nowrap;
 }
 
-section {
+.first-section {
     display: flex;
     flex-direction: column;
     gap: 100px;
     padding: 30px;
 }
 
-h3 {
-    font-size: 3rem;
-    transition: 2s;
+.last-section {
+    box-shadow: 2px 2px 5px brown;
+    margin: 10px 10px 0 10px;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    place-content: center;
 }
 
-h3:hover {
+.last-section p {
+    width: 70%;
+}
+
+/* add a hover effect to the gallery link */
+
+h3 {
+    font-size: 3rem;
+}
+
+.first-section p:hover {
     font-size: 3rem;
 }
 
 p {
     font-size: 2.5rem;
-    color: orangered
-}
-
-.reason-second {
-    margin: 0 auto;
+    color: orangered;
+    transition: 2s;
 }
 
 .reason-three {
@@ -88,12 +98,6 @@ footer p {
 @media (max-width:1000px) {
     h3 {
         font-size: 2rem;
-    }
-}
-
-@media (min-width:1000px) {
-    h3:hover {
-        font-size: 4rem;
     }
 }
 

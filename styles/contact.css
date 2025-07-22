@@ -16,7 +16,7 @@ body {
 }
 
 header {
-    background-image: linear-gradient(to top, orange 60%, rgb(250, 203, 31));
+    /* background-image: linear-gradient(to top, orange 60%, rgb(250, 203, 31)); */
     height: 20vh;
     min-height: 175px;
     max-height: 300px;
@@ -36,10 +36,10 @@ header a {
 
 header h1 {
     font-size: 5rem;
-    color: rgb(3, 13, 122);
+    color: rgba(165, 42, 42, 0.608);
 }
 
-h1 span {
+header span {
     white-space: nowrap
 }
 
