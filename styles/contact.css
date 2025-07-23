@@ -39,6 +39,7 @@ header nav a {
     color: rgb(255, 128, 1);
     padding: 10px;
     text-decoration: none;
+    border-radius: 5px;
 }
 
 header h1 {
@@ -93,6 +94,15 @@ input::placeholder {
     border-radius: 7px;
 }
 
+header a:hover {
+    background-color: rgb(255, 128, 1);
+    color: papayawhip
+}
+
+.buttons button:hover {
+    background-color: rgb(255, 128, 1);
+}
+
 footer {
     height: 6vh;
     background-color: brown;
@@ -110,6 +120,17 @@ footer p {
     color: papayawhip;
 }
 
+.fa-telegram:hover {
+    color: rgb(19, 154, 207);
+}
+
+.fa-linkedin:hover {
+    color: rgb(29, 144, 246);
+}
+
+.fa-github:hover {
+    color: black
+}
 
 @media (max-width:566px) {
     header h1 {

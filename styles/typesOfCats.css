@@ -28,7 +28,6 @@ body {
 }
 
 header {
-    /* background-image: linear-gradient(to top, orange 60%, rgb(250, 203, 31)); */
     height: 20vh;
     min-height: fit-content;
     max-height: 200px;
@@ -43,9 +42,13 @@ header a {
     color: rgb(255, 128, 1);
     padding: 10px;
     text-decoration: none;
+    border-radius: 5px;
 }
 
-/* add a hover effect on the anchor links*/
+header a:hover {
+    background-color: rgb(255, 128, 1);
+    color: papayawhip
+}
 
 header h1 {
     font-size: 5rem;
@@ -116,6 +119,19 @@ footer div a {
     font-size: 1.4rem;
     color: papayawhip
 }
+
+.fa-telegram:hover {
+    color: rgb(19, 154, 207);
+}
+
+.fa-linkedin:hover {
+    color: rgb(29, 144, 246);
+}
+
+.fa-github:hover {
+    color: black
+}
+
 
 @media (min-width:1200px) {
     .grid-container {
