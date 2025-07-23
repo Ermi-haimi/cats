@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Delius&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* reset begin */
 * {
     margin: 0;
@@ -11,6 +13,7 @@ body {
     color: rgb(94, 9, 9);
     display: flex;
     flex-direction: column;
+    font-family: delius, sans-serif;
 }
 
 header {
@@ -22,8 +25,7 @@ header {
 }
 
 header a {
-    background-color: brown;
-    color: rgb(255, 230, 0);
+    color: rgb(255, 128, 1);
     padding: 10px;
     text-decoration: none;
 }
@@ -84,7 +86,7 @@ p {
 }
 
 footer {
-    height: 5vh;
+    height: fit-content;
     background-color: brown;
     margin-top: auto;
 }
@@ -93,6 +95,11 @@ footer p {
     color: yellow;
     text-align: center;
     font-size: 1rem
+}
+
+.fa-brands {
+    font-size: 1.4rem;
+    color: papayawhip;
 }
 
 @media (max-width:1000px) {
