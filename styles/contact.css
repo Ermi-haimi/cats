@@ -101,6 +101,7 @@ header a:hover {
 
 .buttons button:hover {
     background-color: rgb(255, 128, 1);
+    cursor: pointer;
 }
 
 footer {

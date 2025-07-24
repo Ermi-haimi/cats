@@ -107,6 +107,7 @@ footer {
     margin-top: auto;
 }
 
+/* back to top */
 footer div a {
     background-color: rgb(255, 183, 0);
     color: brown;
@@ -138,7 +139,7 @@ footer div a {
         grid-template-columns: 1fr 1fr;
     }
 
-    footer a {
+    footer div a {
         display: none;
     }
 }

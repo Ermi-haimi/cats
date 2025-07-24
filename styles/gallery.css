@@ -54,6 +54,7 @@ header span {
 img {
     width: 100%;
     border-radius: 5px;
+    transition: 1s;
 }
 
 main {
@@ -69,7 +70,8 @@ main {
 }
 
 img:hover {
-    opacity: 0.8;
+    opacity: 0.9;
+    transform: rotate(10deg);
 }
 
 footer {
